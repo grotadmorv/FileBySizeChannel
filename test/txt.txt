@@ -1,0 +1,4 @@
+dsqfffffffffffffffffffffffffffffffffff
+
+go tool pprof --pdf ./filebysize.exe mem_profile.perf > meme.pdf
+go tool pprof --pdf ./filebysize.exe perf_cpu.perf > meme.pdf
